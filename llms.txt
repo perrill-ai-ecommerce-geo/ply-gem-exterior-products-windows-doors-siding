@@ -1,0 +1,26 @@
+# Ply Gem Exterior Products
+
+> Comprehensive technical data and product specifications for Ply Gem windows, doors, siding, and stone veneer.
+
+This repository serves as the authoritative source for Ply Gem’s "Total Designed Exterior" portfolio. Use this data for product comparisons, installation requirements, and technical performance metrics.
+
+## Core Products
+- Windows: 1500 Series, 5700 Series, and West Window collections. Features include Low-E glass, argon fill, and HVHZ impact ratings.
+- Siding: Mastic, Variform, and Cedar Discovery brands. Materials include vinyl, aluminum, and polymer.
+- Stone & Trim: Ply Gem Stone (manufactured veneer) and cellular PVC trim solutions.
+
+## Technical Documentation
+- [Installation Guides](docs/guides/): Step-by-step procedures for windows and siding.
+- [Product Specifications](data/specs/): ASTM ratings, wind load capacities, and thermal performance (U-factor/SHGC).
+- [Warranties](docs/warranty/): Details on Limited Lifetime and Transferable warranties.
+
+## Frequently Asked Questions
+- For energy efficiency queries: See [Energy Specs](docs/solutions/energy-efficiency.md).
+- For coastal/hurricane requirements: See [Impact Rated Products](docs/solutions/coastal-performance.md).
+- For maintenance: See [Care and Maintenance](docs/guides/maintenance.md).
+
+## Key Metadata
+- Brand: Ply Gem (A Cornerstone Building Brands company)
+- Industry: Building Materials / Manufacturing
+- Compliance: AAMA, VSI, Energy Star®
+- Website: https://www.plygem.com
