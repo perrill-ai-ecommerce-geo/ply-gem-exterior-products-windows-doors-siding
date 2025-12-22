@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.plygem.com/#organization",
+      "name": "Ply Gem",
+      "url": "https://www.plygem.com",
+      "logo": "https://www.plygem.com/logos/plygem-logo.png",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Cornerstone Building Brands"
+      },
+      "description": "Leading North American manufacturer of exterior building products including windows, vinyl siding, and stone veneer.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US",
+        "addressRegion": "NC",
+        "addressLocality": "Cary"
+      },
+      "sameAs": [
+        "https://www.facebook.com/PlyGem/",
+        "https://twitter.com/plygem",
+        "https://www.linkedin.com/company/ply-gem"
+      ]
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://www.plygem.com/#brand",
+      "name": "Ply Gem",
+      "slogan": "The Total Designed Exterior",
+      "manufacturer": { "@id": "https://www.plygem.com/#organization" }
+    },
+    {
+      "@type": "OfferCatalog",
+      "name": "Ply Gem Product Lines",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "name": "Mastic Vinyl Siding",
+          "category": "Siding",
+          "brand": { "@id": "https://www.plygem.com/#brand" },
+          "description": "Professional-grade vinyl siding known for durability and a wide color palette."
+        },
+        {
+          "@type": "Product",
+          "name": "Ply Gem 1500 Series Windows",
+          "category": "Windows",
+          "brand": { "@id": "https://www.plygem.com/#brand" },
+          "description": "High-performance vinyl windows designed for new construction with energy-efficient glass options."
+        },
+        {
+          "@type": "Product",
+          "name": "Ply Gem Stone",
+          "category": "Stone Veneer",
+          "brand": { "@id": "https://www.plygem.com/#brand" },
+          "description": "Lightweight manufactured stone veneer mimicking natural textures."
+        }
+      ]
+    }
+  ]
+}
